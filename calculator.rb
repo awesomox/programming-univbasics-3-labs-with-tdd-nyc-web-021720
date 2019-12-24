@@ -10,4 +10,6 @@ def calculator(first_number, second_number, operator)
     when "*"
       puts (first_number * second_number)
     when "/"  
+      puts (first_number / second_number)
+    
     
