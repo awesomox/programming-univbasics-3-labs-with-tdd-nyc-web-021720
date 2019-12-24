@@ -1,23 +1,13 @@
 # Add your variables here
 first_number = 3
 second_number = 6
-sum = "+"
-difference = "-"
-product = "*"
-quotient = "/"
+sum = first_number + second_number
+difference = first_number - second_number
+product = first_number * second_number
+quotient = first_number / second_number
 
-def calculate(first_number, second_number, operator)
-  case operator
-    when sum
-      puts (first_number + second_number)
-    when difference
-      puts (first_number - second_number)
-    when product
-      puts (first_number * second_number)
-    when quotient
-      puts (first_number / second_number)
-  end
-end
+puts sum
+
 
 
     
