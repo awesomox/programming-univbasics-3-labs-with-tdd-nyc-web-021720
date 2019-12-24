@@ -1,5 +1,5 @@
 # Add your variables here
-def calculator(first_number, second_number, operator)
+def calculator(first_number, second_number)
   first_number.to_f 
   second_number.to_f 
   case operator
