@@ -5,6 +5,17 @@ second_number = 6
 def calculate(first_number, second_number, operator)
   case operator
     when "+"
-      sum(first_number, )
+      puts (first_number + second_number)
+    when "-"
+      puts (first_number - second_number)
+    when "*"
+      puts (first_number * second_number)
+    when "/"
+      puts (first_number / second_number)
+  end
+end
+
+
+    
 
     
